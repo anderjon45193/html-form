@@ -1,0 +1,90 @@
+* {
+    font-family: 'Roboto Flex', sans-serif;
+    padding: 5px;
+}
+
+form {
+    width: 500px;
+    height: 800px;
+    padding: 50px;
+    margin: auto;
+    /*text-align: center;*/
+}
+
+input {
+    margin: auto;
+}
+
+select {
+    margin: auto;
+}
+
+textarea {
+    margin: auto;
+}
+
+legend {
+    border: 1px solid black;
+}
+
+.firstName {
+    display: block;
+    margin: auto;
+}
+
+#firstName {
+    display: block;
+}
+
+#lastName {
+    display: block;
+    margin-left: auto 0;
+}
+
+#email {
+    display: block;
+    align-content: center;
+}
+
+.status {
+    display: inline-block;
+    align-content: center;
+}
+
+#comments {
+    display: block;
+    align-content: center;
+}
+
+.date {
+    display: inline-block;
+    align-content: center;
+}
+
+#date {
+    display block:
+}
+
+p {
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+button {
+    background-color: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.news {
+    display: inline-block;
+}
+
+#newsletter {
+    align-content: left;
+}
+
+.terms_conditions {
+    display: inline-block;
+}

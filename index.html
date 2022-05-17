@@ -3,6 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>Building HTML forms</title>
+        <link rel="stylesheet" href="layout.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap" rel="stylesheet">
     </head>
     <body>
         <form action="" method="post">
@@ -32,6 +36,11 @@
                         </select>
                     </div>
 
+                    <div class="date">
+                        <label for="date">Date: </label>
+                        <input type="date" id="date" name="date">
+                    </div>
+
                     <div class="programmingLanguage">
                         <p>Choose your favorite programming language: </p>
                         <label for="progLang">HTML</label>
@@ -44,22 +53,17 @@
 
                     <div class="additional-info">
                         <label for="comments">Comments: </label>
-                        <textarea id="comments" name="comments" rows="10" cols="20">Enter your Comments...</textarea>
-                    </div>
-
-                    <div class="date">
-                        <label for="date">Date: </label>
-                        <input type="date" id="date" name="date">
+                        <textarea id="comments" name="comments" rows="10" cols="20"></textarea>
                     </div>
 
                     <div class="news">
-                        <label for="newsletter">Sign up for newseltter</label>
                         <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">sign up for news</label>
                     </div>
 
                     <div class="terms_conditions">
-                        <label for="terms_conditions">Agree to terms and conditions</label>
                         <input type="checkbox" id="terms_conditions" name="terms_conditions">
+                        <label for="terms_conditions">agree to terms</label>
                     </div>
 
                     <div class="submit">
