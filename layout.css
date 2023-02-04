@@ -1,6 +1,5 @@
 * {
     font-family: 'Roboto Flex', sans-serif;
-    padding: 5px;
 }
 
 form {
@@ -34,6 +33,7 @@ legend {
 
 #firstName {
     display: block;
+    margin-left: auto 0;
 }
 
 #lastName {
@@ -61,10 +61,6 @@ legend {
     align-content: center;
 }
 
-#date {
-    display block:
-}
-
 p {
     text-align: center;
     padding: 5px;
@@ -87,4 +83,8 @@ button {
 
 .terms_conditions {
     display: inline-block;
+}
+
+label {
+    color: coral;
 }
